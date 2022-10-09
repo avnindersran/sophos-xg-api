@@ -27,7 +27,9 @@ $ git clone https://github.com/avnindersran/sophos-xg-api.git
 # Go into the repository
 $ cd sophos-xg-api
 
-# Update cerd.txt with your username and  encrypted password.
+# Update the cerd.txt with your username and encrypted password.
+
+# Replace the XG Mgmt IP address and port number in api-call.py.
 
 # Update the XML-request.xml as desired.
 $ python3 api.call.py
