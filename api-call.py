@@ -1,8 +1,8 @@
 import requests
 
-# Opening XG-Cerd file.
-with open("cerd.txt", "r") as cerd:
-    cerd = cerd.read()
+# Opening XG-Creds file.
+with open("creds.txt", "r") as creds:
+    creds = creds.read()
 
 # Opening XML request file.
 with open("XML-request.xml", "r") as xml:
@@ -10,6 +10,6 @@ with open("XML-request.xml", "r") as xml:
 
 # API call
 response = requests.post(
-    "https://192.168.10.254:4445/webconsole/APIController?reqxml=" + cerd + xmlrequest, verify=False)
+    "https://192.168.10.254:4445/webconsole/APIController?reqxml=" + creds + xmlrequest, verify=False)
 print(response.status_code)
 print(response.text)
