@@ -1,0 +1,5 @@
+<Request>
+<Login>
+    <Username>api admin</Username>
+    <Password passwordform="encrypt">Enter the encrypted password here</Password>
+</Login>

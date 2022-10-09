@@ -1,0 +1,9 @@
+<set>
+    <IPHost>
+        <Name>localhost</Name>
+        <IPFamily>IPv4</IPFamily>
+        <HostType>IP</HostType>
+        <IPAddress>127.0.0.1</IPAddress>
+    </IPHost>
+</set>
+</Request>
