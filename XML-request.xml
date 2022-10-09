@@ -1,9 +1,9 @@
 <set>
     <IPHost>
-        <Name>localhost</Name>
+        <Name>Quad9 DNS</Name>
         <IPFamily>IPv4</IPFamily>
         <HostType>IP</HostType>
-        <IPAddress>127.0.0.1</IPAddress>
+        <IPAddress>9.9.9.9</IPAddress>
     </IPHost>
 </set>
 </Request>

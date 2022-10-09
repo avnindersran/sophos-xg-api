@@ -8,7 +8,7 @@ with open("cerd.txt", "r") as cerd:
 with open("XML-request.xml", "r") as xml:
     xmlrequest = xml.read()
 
-#API call
+# API call
 response = requests.post(
     "https://192.168.10.254:4445/webconsole/APIController?reqxml=" + cerd + xmlrequest, verify=False)
 print(response.status_code)
