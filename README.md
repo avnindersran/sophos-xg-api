@@ -1,16 +1,16 @@
 # sophos-xg-api
-* Make API calls with a simple python script. 
+* A simple Python script can be used to make API calls. 
 
 ## Getting started with the API
 
 * Enable the API.
   - Go to Backup & Firmware > API 
-  - For more details, see documentation [here](https://docs.sophos.com/nsg/sophos-firewall/19.0/Help/en-us/webhelp/onlinehelp/AdministratorHelp/BackupAndFirmware/API/APIUsingAPI/index.html+)
+  - For more details, see documentation [here](https://docs.sophos.com/nsg/sophos-firewall/19.0/Help/en-us/webhelp/onlinehelp/AdministratorHelp/BackupAndFirmware/API/APIUsingAPI/index.html)
 
-## Sophos API documentation
+## API documentation for Sophos Firewall.
 See documentation [here](https://docs.sophos.com/nsg/sophos-firewall/19.0/API/index.html)  
 
-## How to create encypred password for API User.
+## How to create encrypted password for API User.
 
 * To get your encrypted password, enter the following command in the advanced shell: 
 ```bash 
@@ -27,7 +27,7 @@ $ git clone https://github.com/avnindersran/sophos-xg-api.git
 # Go into the repository
 $ cd sophos-xg-api
 
-# Update the cerd.txt with your username and encrypted password.
+# Update the creds.txt with your username and encrypted password.
 
 # Replace the XG Mgmt IP address and port number in api-call.py.
 
@@ -36,6 +36,6 @@ $ python3 api.call.py
 
 ```
 ---
-> GitHub [@avnindersran](https://github.com/avnindersran) &nbsp;&middot;&nbsp;
+> GitHub [@avnindersran](https://github.com/avnindersran)
 
 
